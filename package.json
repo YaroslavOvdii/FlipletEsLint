@@ -1,7 +1,7 @@
 {
   "name": "flipleteslint",
   "version": "1.0.0",
-  "description": "EsLint for fliplet apps",
+  "description": "For Fliplet Widgets ES5 style type",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/YaroslavOvdii/FlipletEsLint.git"
   },
-  "author": "YaOvdiy",
+  "author": "Yaroslav Ovdii",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/YaroslavOvdii/FlipletEsLint/issues"
   },
-  "homepage": "https://github.com/YaroslavOvdii/FlipletEsLint#readme"
+  "homepage": "https://github.com/YaroslavOvdii/FlipletEsLint#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb-es5": "^1.2.0",
+    "eslint-plugin-react": "^7.18.0"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
 }
