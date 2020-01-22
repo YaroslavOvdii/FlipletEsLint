@@ -1,5 +1,5 @@
 {
-  "name": "flipleteslint",
+  "name": "eslint-config-fliplet",
   "version": "1.0.0",
   "description": "For Fliplet Widgets ES5 style type",
   "main": "index.js",
