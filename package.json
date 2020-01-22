@@ -16,15 +16,8 @@
     "url": "https://github.com/YaroslavOvdii/FlipletEsLint/issues"
   },
   "homepage": "https://github.com/YaroslavOvdii/FlipletEsLint#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-config-airbnb-es5": "^1.2.0",
-    "eslint-plugin-react": "^7.18.0"
-  },
   "peerDependencies": {
     "eslint": ">=6.8.0",
-    "babel-eslint": ">=10.0.3",
-    "eslint-config-airbnb-es5": ">=1.2.0",
-    "eslint-plugin-react": ">=7.18.0"
+    "babel-eslint": ">=10.0.3"
   }
 }
