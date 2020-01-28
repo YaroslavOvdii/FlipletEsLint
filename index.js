@@ -2,12 +2,15 @@ module.exports = {
   /* Based on https://github.com/1hella/eslint-config-airbnb-es5 */
   "globals": {
     "Fliplet": true,
-    "$": true
+    "FLPortal": true,
+    "_": true,
+    "FLBuilder": true
   },
   "env": {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     "browser": true,                 // browser global variables
-    "node": true                     // Node.js global variables and Node.js-specific rules
-    },
+    "node": true,                    // Node.js global variables and Node.js-specific rules
+    "jquery": true,                  // jQuery global variables.
+  },
   "parser": "babel-eslint",          // https://github.com/babel/babel-eslint
     "rules": {
 /**
