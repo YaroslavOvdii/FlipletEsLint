@@ -7,6 +7,7 @@
     "eslint-config-fliplet": "github:YaroslavOvdii/FlipletEsLint"
   },
   ``
+
   ``
   "dependencies": {
     "babel-eslint": "^10.0.3",
@@ -32,6 +33,7 @@
     "eslint-config-fliplet": "github:YaroslavOvdii/FlipletEsLint"
   },
   ``
+  
   ``
   "dependencies": {
     "babel-eslint": "^10.0.3",
