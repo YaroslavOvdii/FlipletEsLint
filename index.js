@@ -4,7 +4,9 @@ module.exports = {
     "Fliplet": true,
     "FLPortal": true,
     "_": true,
-    "FLBuilder": true
+    "FLBuilder": true,
+    "Swiper": true,
+    "Promise": true
   },
   "env": {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     "browser": true,                 // browser global variables
@@ -21,7 +23,7 @@ module.exports = {
 /**
  * Variables
  */
-    "no-shadow": 2,                  // http://eslint.org/docs/rules/no-shadow
+    "no-shadow": 0,                  // http://eslint.org/docs/rules/no-shadow
     "no-shadow-restricted-names": 2, // http://eslint.org/docs/rules/no-shadow-restricted-names
     "no-unused-vars": [2, {          // http://eslint.org/docs/rules/no-unused-vars
       "vars": "local",
@@ -61,7 +63,7 @@ module.exports = {
 /**
  * Best practices
  */
-    "consistent-return": 2,          // http://eslint.org/docs/rules/consistent-return
+    "consistent-return": 0,          // http://eslint.org/docs/rules/consistent-return
     "curly": [2, "multi-line"],      // http://eslint.org/docs/rules/curly
     "default-case": 2,               // http://eslint.org/docs/rules/default-case
     "dot-notation": [2, {            // http://eslint.org/docs/rules/dot-notation
@@ -132,7 +134,7 @@ module.exports = {
         "beforeColon": false,
         "afterColon": true
         }],
-    "new-cap": [2, {                 // http://eslint.org/docs/rules/new-cap
+    "new-cap": [0, {                 // http://eslint.org/docs/rules/new-cap
       "newIsCap": true
       }],
     "new-parens": 2,                 // http://eslint.org/docs/rules/new-parens
