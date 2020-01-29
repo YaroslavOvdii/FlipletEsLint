@@ -16,7 +16,7 @@
   ``
 
   * Run `npm install`
-  * Add `.eslinrc` file with this line in it
+  * Add `.eslintrc` file with this line in it
 
     ``
     {
@@ -42,7 +42,7 @@
   ``
   
   * Run `npm install`
-  * Add `.eslinrc` file with this line in it
+  * Add `.eslintrc` file with this line in it
     
     ``
     {
