@@ -8,7 +8,11 @@ module.exports = {
     "Swiper": true,                  // Slider/onboarding global for the Swiper library
     "Promise": true,                 // Promise global
     "Handlebars": true,
-    "flSlider": true
+    "flSlider": true,
+    "moment": true,
+    "Highcharts": true,
+    "tableDataArray": true
+
   },
   "env": {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
     "browser": true,                 // browser global variables
@@ -68,7 +72,7 @@ module.exports = {
     "consistent-return": 0,          // http://eslint.org/docs/rules/consistent-return
     "curly": [2, "multi-line"],      // http://eslint.org/docs/rules/curly
     "default-case": 2,               // http://eslint.org/docs/rules/default-case
-    "dot-notation": [2, {            // http://eslint.org/docs/rules/dot-notation
+    "dot-notation": [0, {            // http://eslint.org/docs/rules/dot-notation
       "allowKeywords": true
       }],
     "eqeqeq": 2,                     // http://eslint.org/docs/rules/eqeqeq
@@ -93,7 +97,7 @@ module.exports = {
     "no-new-wrappers": 2,            // http://eslint.org/docs/rules/no-new-wrappers
     "no-octal": 2,                   // http://eslint.org/docs/rules/no-octal
     "no-octal-escape": 2,            // http://eslint.org/docs/rules/no-octal-escape
-    "no-param-reassign": 2,          // http://eslint.org/docs/rules/no-param-reassign
+    "no-param-reassign": 0,          // http://eslint.org/docs/rules/no-param-reassign
     "no-process-exit": 2,            // http://eslint.org/docs/rules/no-process-exit
     "no-proto": 2,                   // http://eslint.org/docs/rules/no-proto
     "no-redeclare": 2,               // http://eslint.org/docs/rules/no-redeclare
@@ -104,7 +108,7 @@ module.exports = {
     "no-throw-literal": 2,           // http://eslint.org/docs/rules/no-throw-literal
     "no-undef": 2,                   // http://eslint.org/docs/rules/no-undef
     "no-undef-init": 2,              // http://eslint.org/docs/rules/no-undef-init
-    "no-undefined": 1,               // http://eslint.org/docs/rules/no-undefined
+    "no-undefined": 0,               // http://eslint.org/docs/rules/no-undefined
     "no-with": 2,                    // http://eslint.org/docs/rules/no-with
     "handle-callback-err": 1,        // http://eslint.org/docs/rules/handle-callback-err
     "radix": 2,                      // http://eslint.org/docs/rules/radix
