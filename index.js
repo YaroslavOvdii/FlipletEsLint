@@ -11,7 +11,8 @@ module.exports = {
     "flSlider": true,
     "moment": true,
     "Highcharts": true,
-    "tableDataArray": true
+    "tableDataArray": true,
+    "tinymce": true
 
   },
   "env": {                           // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
