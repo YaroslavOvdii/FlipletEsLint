@@ -80,7 +80,6 @@ module.exports = {
     "guard-for-in": 2,               // http://eslint.org/docs/rules/guard-for-in
     "no-caller": 2,                  // http://eslint.org/docs/rules/no-caller
     "no-div-regex": 2,               // http://eslint.org/docs/rules/no-div-regex
-    "no-else-return": 2,             // http://eslint.org/docs/rules/no-else-return
     "no-labels": 2,                  // http://eslint.org/docs/rules/no-labels
     "no-eq-null": 2,                 // http://eslint.org/docs/rules/no-eq-null
     "no-eval": 2,                    // http://eslint.org/docs/rules/no-eval
